@@ -1,0 +1,65 @@
+.DragDrop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DropBox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 0px 5px 0px 5px;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.BlackPadding{
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+
+.UploadImageButton{
+  background: none;
+  cursor: pointer;
+}
+.UploadIconSVG{
+  width: 50px;
+}
+
+.UploadButton, .SearchButton{
+  width: 250px;
+  padding: 0.5rem;
+  margin-top: 10px;
+  transition: 0.2s ease all;
+}
+
+.UploadButton:hover, .SearchButton:hover{
+  filter: brightness(80%);
+}
+
+.UploadButton:active, .SearchButton:active{
+  filter: brightness(50%);
+}
+
+.UploadButton{
+  background: radial-gradient(farthest-corner at -100% -50%,#7099d1, rgb(43, 36, 39));
+}
+
+.SearchButton{
+  background: radial-gradient(farthest-corner at -100% -50%,#7099d1, rgb(43, 36, 39));
+}
+
+.ResultCountBar{
+  width: 250px;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border-radius: 0px 0px 5px 5px;
+  background: rgba(255, 255, 255, 0.8);
+}

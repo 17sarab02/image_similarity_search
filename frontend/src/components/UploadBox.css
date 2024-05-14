@@ -1,0 +1,68 @@
+.UploadBox{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.UploadFileButton{
+    border: 2px red solid;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.SelectedImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.UploadFileContainer:hover{
+    opacity: 0.75;
+}
+
+.BlackOverlay{
+    background: black;
+}
+
+.UploadSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.UploadFileButton{
+    position: absolute;
+}
+.UploadFileButtonGraphic{
+    position: absolute;
+    height: 30%; left: 67px;
+    width: 30%; top: 67px;
+    z-index: -1;
+}
+.CrossIcon{
+    position: absolute;
+    height: 30px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    transition: 0.2s all ease;
+    border-radius: 50%;
+    top: 10px; right: 10px;
+    padding: 5px;
+}
+
+.CrossIcon:hover{
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.UploadFileContainer{
+    opacity: 0.3;
+    transition: 0.2s ease all;
+}
+
+.UploadFileButton{
+    opacity: 0;
+}

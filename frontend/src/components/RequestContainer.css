@@ -1,0 +1,31 @@
+.RequestBlock{
+    margin: 5px;
+}
+
+.SearchButton, .UploadButton{
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.SearchButton:disabled, .UploadButton:disabled{
+    filter: brightness(150%);
+    cursor: not-allowed;
+}
+
+.SearchButton{
+    background: #359583;
+}
+
+.UploadButton{
+    background: #1d3b6b;
+}
+
+.SearchCount, .Parameters{
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #1f2c2c;
+    width: 150px;
+}
